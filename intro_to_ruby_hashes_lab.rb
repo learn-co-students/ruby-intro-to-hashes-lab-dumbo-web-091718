@@ -10,7 +10,7 @@ end
 
 def monopoly
   
-  	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+  #copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 	monopoly = {}
 	monopoly[:railroads] = {}
   monopoly
@@ -18,12 +18,13 @@ def monopoly
 end
 
 def monopoly_with_second_tier
-#   	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+	#Without Operator
   monopoly = {}
-	monopoly[:railroads] = { }
+	monopoly[:railroads] = {}
   monopoly[:railroads] = { :pieces => 4 }
   monopoly[:railroads ][:names] = { }
-  monopoly[:railroads][:rent_in_dollars] = { }
+  monopoly[:railroads][:rent_in_dollars] = {}
      #0R
     monopoly = {
     railroads: {
@@ -45,7 +46,7 @@ def monopoly_with_third_tier
   monopoly[:railroads][:rent_in_dollars] = { }
   monopoly[:railroads][:rent_in_dollars] = { :one_piece_owned  => 25 }
   monopoly[:railroads][:rent_in_dollars][:two_pieces_owned] =     50.to_i
-  monopoly[:railroads][:rent_in_dollars][:four_pieces_owned] =  200.to_i
+  monopoly[:railroads][:rent_in_dollars][:four_pieces_owned] =    200.to_i
   #Adding Without Operator
   monopoly = {
     railroads: {
@@ -69,7 +70,7 @@ end
 
 def monopoly_with_fourth_tier
 #copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
+#monopoly Array without perator
   monopoly = {
     railroads: {
       pieces: 4, 
